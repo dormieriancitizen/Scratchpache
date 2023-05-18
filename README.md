@@ -1,4 +1,5 @@
-# Scratchpache
+![scratchpache](https://github.com/JustAHippo/Scratchpache/assets/82006314/4a620aec-3773-4f48-b040-38da421edfe0)
+
 Hosting HTML using Scratch as a CDN.
 
 ## Why?
