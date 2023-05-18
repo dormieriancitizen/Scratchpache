@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 		//for (let i = 0; i < message.length / 2; i += 2) {
 		//	
 		//}
-		for (let i = 0; i < split.length - 1; i++) {
+		for (let i = 0; i < split.length; i++) {
 			decodedMessage = decodedMessage + numToChar(split[i])
 		}
 		console.log(decodedMessage)
