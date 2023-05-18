@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
             decodedMessage = decodedMessage+decodedBlock
         }
         console.log(decodedMessage)
-                return res.send(decodedMessage.replaceAll("undefined",''));
+                return res.send(decodedMessage.replace(/undefined/g,''));
         })
         .catch(error => {
                 console.log(error);
