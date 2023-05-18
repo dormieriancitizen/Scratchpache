@@ -1,10 +1,10 @@
 //const express = require('express');
 //const fetch = require('node-fetch');
 import express from 'express';
-import fetch from 'node-fetch';
+//import fetch from 'node-fetch';
 import axios from 'axios';
 const app = express();
-const usedID = "853326052"
+const usedID = "SCRATCH ID HERE"
 let characterArray = ["'", "<", ">","?", "/", "`", "", " ","=", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "2", "3", "4", "5", "6", "7", "8", "9", "0", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", ".", "-", "!", "@", "#", "$", "%", "^", "&", "*", "(",")", "_", "+", "|", "\\", ":", "\n", ";",",","{","}"];
 const port=6980
 
@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
                 //for (let i = 0; i < message.length / 2; i += 2) {
                 //
                 //}
-        for (let i = 0; i < split.length - 1; i++) {
+        for (let i = 0; i < split.length; i++) {
             let decodedBlock=numToChar(split[i])
             if (split[i]==-1) {
                                 console.log("Broken")
