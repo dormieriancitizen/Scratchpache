@@ -3,7 +3,7 @@
 Hosting HTML using Scratch as a CDN.
 
 ## Why?
-Fuck you, that's why
+THINK OF THE SPEED WE COULD HAVE! ONE KB/S UPLOAD! STORAGE OF A SUPERMASSIVE 12 THOUSAND BYTES! FREE STORAGE!
 
 ## Setup
 
@@ -18,8 +18,8 @@ Not entirely sure how long the history will last, but it looks long enough to be
 ## Warnings
 ~~Rerunning the sendToCloud will break the project. If you wish to edit, remix the project again and run through setup again with modified code. Edit the scratch ID in main.js again to match it.~~ fixed in [#2](https://github.com/JustAHippo/Scratchpache/pull/2)
 
-Lowercase only seems to be an issue right now. May be resolved later. I do not know.
+~~Lowercase only seems to be an issue right now. May be resolved later. I do not know.~~ Fixed
 
 You must also have the "Scratcher" role to run this project! Those without access to cloud variables cannot use this! "New Scratcher" will not cut it!
 
-There is a length limit. While it is very large, I am not aware of it.
+There is a length limit. Running on cloud vars, it is approximately 12k characters.
