@@ -7,7 +7,12 @@ Fuck you, that's why
 
 ## Setup
 
-Remix the [main project](https://scratch.mit.edu/projects/852859818) and enter minified HTML into the encodeContent block. Once you run encodeContent, then do sendToCloud. Not entirely sure how long the history will last, but it looks long enough to be a valid storage. Then, modify main.js' "usedID" variable to reflect that of your scratch project.
+Remix the [main project](https://scratch.mit.edu/projects/852859818)
+
+~~and enter minified HTML into the encodeContent block. Once you run encodeContent, then do sendToCloud.~~ 
+Enter the HTML you would like to serve into encoder.js' "content" variable and output will be logged. Copy the full output to the block "set encodedcontent to" and then run the stack it is in. This will upload the content to the server for delivery!
+
+Not entirely sure how long the history will last, but it looks long enough to be a valid storage. Then, modify main.js' "usedID" variable to reflect that of your scratch project.
 
 ## Warnings
 ~~Rerunning the sendToCloud will break the project. If you wish to edit, remix the project again and run through setup again with modified code. Edit the scratch ID in main.js again to match it.~~ fixed in [#2](https://github.com/JustAHippo/Scratchpache/pull/2)
