@@ -9,8 +9,9 @@ Fuck you, that's why
 
 Remix the [main project](https://scratch.mit.edu/projects/852859818)
 
-~~and enter minified HTML into the encodeContent block. Once you run encodeContent, then do sendToCloud.~~ 
 Enter the HTML you would like to serve into encoder.js' "content" variable and output will be logged. Copy the full output to the block "set encodedcontent to" and then run the stack it is in. This will upload the content to the server for delivery!
+
+Please do not use the encodeContent or decodeContent scratch blocks as those are out of date and have issues! Please do not use them, but instead encode content with encoder.js and copy paste it for upload.
 
 Not entirely sure how long the history will last, but it looks long enough to be a valid storage. Then, modify main.js' "usedID" variable to reflect that of your scratch project.
 
