@@ -2,14 +2,15 @@ let characterArray = ["'", "<", ">","?", "/", "`", "", " ","=", "a", "b", "c", "
 
 import fs from 'fs'
 
-const content=fs.readFileSync('./message', 'utf-8').toString();
 
+//Avoid editting this var. Instead, edit the "message" file.
+
+const content=fs.readFileSync('./message', 'utf-8').toString();
 
 //DO NOT TOUCH MESSAGE VAR, PROGRAM USES IT ON ITS OWN
 
-
 let message = "";
-
+o
 function charToNumber(character) {
     let numQuery = (element) => element == character;
     let number = characterArray.findIndex(numQuery) + 1;
@@ -37,8 +38,6 @@ for (let i = 0; i < split.length; i++) {
 }
 
 //DEBUG: IF YOU WANT TO VERIFY CONTENT, UNCOMMENT
-console.log(decodedMessage)
-
 function numToChar(num) {
     let number = parseInt(num)
     return characterArray[number - 1]
